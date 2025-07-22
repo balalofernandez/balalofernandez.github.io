@@ -123,7 +123,7 @@ const CONFIG = {
       company: 'Phonema AI',
       position: 'Founding Engineer',
       from: 'October 2024',
-      to: 'June 2025',
+      to: 'Present',
       companyLink: 'https://phonema.ai',
     },
     {
