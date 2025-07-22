@@ -60,7 +60,7 @@ const CONFIG = {
   seo: {
     title: 'Portfolio of Alvaro Fernandez',
     description: 'Full-Stack AI Engineer | Python, React, Kubernetes | AI Systems',
-    imageURL: '',
+    imageURL: 'https://avatars.githubusercontent.com/u/32058572?v=4',
   },
   social: {
     linkedin: 'alvarofmoreno',
