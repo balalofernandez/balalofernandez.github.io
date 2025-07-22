@@ -12,9 +12,18 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
-      header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      display: true,// Display GitHub projects?
+      header: 'Highlighted Projects',
+      mode: 'manual',// Mode can be: 'automatic' or 'manual'
+      manual: {
+        projects: [
+          'balalofernandez/RTDETRv2-pt',
+          'balalofernandez/CoverLetterRAG',
+          'balalofernandez/COMP0087',
+          'balalofernandez/FirstByte-LLM-Proxy',
+          'nari-labs/dia-streaming',
+        ],
+      },
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -23,152 +32,153 @@ const CONFIG = {
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
-      },
     },
     external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
+      header: 'Open Source Contributions',
       projects: [
         {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          title: 'Orpheus-TTS',
+          description: 'Open source TTS model by CanopyAI',
+          imageUrl: 'https://github.com/canopyai/Orpheus-TTS/raw/main/assets/logo.png',
+          link: 'https://github.com/canopyai/Orpheus-TTS',
         },
         {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          title: 'Pipecat',
+          description: 'Open source LLM inference server',
+          imageUrl: 'https://github.com/pipecat-ai/pipecat/raw/main/assets/logo.png',
+          link: 'https://github.com/pipecat-ai/pipecat',
+        },
+        {
+          title: 'Dia-TTS',
+          description: 'Streaming TTS engine by Nari Labs',
+          imageUrl: 'https://github.com/nari-labs/dia/raw/main/assets/logo.png',
+          link: 'https://github.com/nari-labs/dia/',
         },
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: {
+    title: 'Portfolio of Alvaro Fernandez',
+    description: 'Full-Stack AI Engineer | Python, React, Kubernetes | AI Systems',
+    imageURL: '',
+  },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'alvarofmoreno',
+    x: 'balalofernandez',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: 'balalo.fernandez',
+    dev: 'balalofernandez',
+    stackoverflow: '',
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://github.com/balalofernandez',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: '',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Add your real CV file URL here if available
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
+    'Python',
+    'FastAPI',
+    'PyTorch',
+    'Kubernetes',
+    'TensorRT',
+    'Terraform',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'PostgreSQL',
+    'React',
+    'Microservice',
+    'Amazon Web Services',
+    'Computer Vision',
+    'Node.js',
+    'Golang',
+    'Rust',
+    'C++',
+    'C#',
+    'Azure',
+    'gRPC',
+    'SQL',
+    'Hugging Face Transformers',
+    'ONNX',
+    'vLLM',
+    'ML Flow',
+    'Jenkins',
+    'Jira',
+    'Angular',
+    'TypeScript',
+    'Ionic',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Phonema AI',
+      position: 'Founding Engineer',
+      from: 'October 2024',
+      to: 'June 2025',
+      companyLink: 'https://phonema.ai',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Medtronic Digital Surgery',
+      position: 'Machine Learning Engineer',
+      from: 'June 2024',
+      to: 'September 2024',
+      companyLink: '',
     },
-  ],
-  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
+      company: 'Serfiex S.A.',
+      position: 'Software Engineer',
+      from: 'June 2021',
+      to: 'September 2023',
+      companyLink: '',
+    }
   ],
+  certifications: [],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University College London',
+      degree: 'Master of Science (MSc), Machine Learning',
+      from: '',
+      to: '',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Universidad Rey Juan Carlos',
+      degree: 'Bachelor of Science (BS), Computer Engineering',
+      from: '',
+      to: '',
+    },
+    {
+      institution: 'Universidad Rey Juan Carlos',
+      degree: 'Bachelor of Arts (BA), Mathematics',
+      from: '',
+      to: '',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
-  // Display articles from your medium or dev account. (Optional)
+  publications: [],
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: 'medium',
+    username: 'balalo.fernandez',
+    limit: 2,
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-BFLWG18FF4', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'winter',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
