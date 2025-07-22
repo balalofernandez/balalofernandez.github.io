@@ -84,9 +84,9 @@ const CONFIG = {
     phone: '',
     email: '',
   },
-  resume: {
-    fileUrl: '', // Add your real CV file URL here if available
-  },
+  // resume: {
+  //   fileUrl: '', // Add your real CV file URL here if available
+  // },
   skills: [
     'Python',
     'FastAPI',
