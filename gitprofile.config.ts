@@ -39,19 +39,19 @@ const CONFIG = {
         {
           title: 'Orpheus-TTS',
           description: 'Open source TTS model by CanopyAI',
-          imageUrl: 'https://github.com/canopyai/Orpheus-TTS/raw/main/assets/logo.png',
+          imageUrl: 'https://avatars.githubusercontent.com/u/157303550?s=40&v=4',
           link: 'https://github.com/canopyai/Orpheus-TTS',
         },
         {
           title: 'Pipecat',
           description: 'Open source LLM inference server',
-          imageUrl: 'https://github.com/pipecat-ai/pipecat/raw/main/assets/logo.png',
+          imageUrl: 'https://avatars.githubusercontent.com/u/169612734?s=40&v=4',
           link: 'https://github.com/pipecat-ai/pipecat',
         },
         {
           title: 'Dia-TTS',
           description: 'Streaming TTS engine by Nari Labs',
-          imageUrl: 'https://github.com/nari-labs/dia/raw/main/assets/logo.png',
+          imageUrl: 'https://avatars.githubusercontent.com/u/208232306?s=48&v=4',
           link: 'https://github.com/nari-labs/dia/',
         },
       ],
