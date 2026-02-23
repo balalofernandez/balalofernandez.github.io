@@ -22,7 +22,7 @@ const CONFIG = {
           'balalofernandez/FirstByte-LLM-Proxy',
           'balalofernandez/dia-streaming',
           'balalofernandez/COMP0087',
-          'balalofernandez/invertible-resnet',
+          'balalofernandez/soft_spectral_norm',
         ],
       },
       automatic: {
