@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true,// Display GitHub projects?
       header: 'Highlighted Projects',
-      mode: 'manual',// Mode can be: 'automatic' or 'manual'
+      mode: 'automatic',// Mode can be: 'automatic' or 'manual'
       manual: {
         projects: [
           'balalofernandez/RTDETRv2-pt',
