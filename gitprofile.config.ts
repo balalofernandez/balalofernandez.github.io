@@ -14,14 +14,15 @@ const CONFIG = {
     github: {
       display: true,// Display GitHub projects?
       header: 'Highlighted Projects',
-      mode: 'automatic',// Mode can be: 'automatic' or 'manual'
+      mode: 'manual',// Mode can be: 'automatic' or 'manual'
       manual: {
         projects: [
+          'balalofernandez/docx-revisions',
           'balalofernandez/RTDETRv2-pt',
-          'balalofernandez/CoverLetterRAG',
-          'balalofernandez/COMP0087',
           'balalofernandez/FirstByte-LLM-Proxy',
-          'nari-labs/dia-streaming',
+          'balalofernandez/dia-streaming',
+          'balalofernandez/COMP0087',
+          'balalofernandez/invertible-resnet',
         ],
       },
       automatic: {
@@ -54,12 +55,18 @@ const CONFIG = {
           imageUrl: 'https://avatars.githubusercontent.com/u/208232306?s=48&v=4',
           link: 'https://github.com/nari-labs/dia/',
         },
+        {
+          title: 'Neo4j-graphrag',
+          description: 'Neo4j GraphRAG for Python',
+          imageUrl: 'https://avatars.githubusercontent.com/u/201120?s=48&v=4',
+          link: 'https://github.com/neo4j/neo4j-graphrag-python',
+        },
       ],
     },
   },
   seo: {
     title: 'Portfolio of Alvaro Fernandez',
-    description: 'Full-Stack AI Engineer | Python, React, Kubernetes | AI Systems',
+    description: 'Full-Stack AI Engineer | Python, React, Kubernetes, Terraform | AI Architect',
     imageURL: 'https://avatars.githubusercontent.com/u/32058572?v=4',
   },
   social: {
